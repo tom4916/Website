@@ -28,7 +28,7 @@ body{
   transform: translate(-50%, -50%);
   width: 50%;
   min-height: 40%;
-  height:auto;
+  height: auto;
   border-radius: 25px;
   padding: 20px;
   box-sizing: border-box;
@@ -41,18 +41,15 @@ body{
   margin: 0 auto;
   position: relative;
   text-align: center;
-  top: 10%;
   width: 90%;
   z-index: 2;
   font-weight: bold;
-  margin-top: 2%;
 }
 
 .center_txt{
   z-index: 4;
   width: 100%;
   box-sizing: border-box;
-  margin-top: 3%;
   height: auto; 
   word-break: break-word;
   overflow-wrap: break-word
@@ -78,7 +75,6 @@ body{
 .button{
   position: relative;
   z-index: 4;
-  flex-shrink: 0;
   width: 9%;
   height: 10%;
   box-sizing: border-box;
@@ -95,6 +91,7 @@ h1{
   font-weight: 400;
   line-height: 60px;
   margin: 0px;
+  line-height: 1.2;
 }
 
 h2{
@@ -109,7 +106,7 @@ h3{
   color: #ffffff;
   font-family: 'Inter', sans-serif;
   font-size: 28px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 30px;
   margin: 10px 0px;
   text-align: center;
