@@ -17,7 +17,24 @@ body{
 .box_filter{
   background-color: rgba(20, 24, 30, 0.4); 
   backdrop-filter: blur(1px) brightness(60%);
-  border: 1px solid rgba(255, 255, 255, 0.05);  
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.center_box{
+  position: fixed;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  min-height: 40%;
+  height:auto;
+  border-radius: 25px;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .header_txt{
@@ -25,34 +42,48 @@ body{
   position: relative;
   text-align: center;
   top: 10%;
-  width: 80%;
+  width: 90%;
   z-index: 2;
   font-weight: bold;
+  margin-top: 2%;
 }
 
-.center_box{
-  position: fixed;
-  width: 50%;
-  height: 50%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 3;
-  border-radius: 25px;
+.center_txt{
+  z-index: 4;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 3%;
+  height: auto; 
+  word-break: break-word;
+  overflow-wrap: break-word
 }
 
 .center_icons{
   position: relative;
   z-index: 4;
-  top: 50%;
+  flex-shrink: 0;
   width: 20%;
+  background-color: transparent;
+  left: 40%;
+  box-sizing: border-box;
+  margin-top: 2%;
 }
 
-.center_txt{
+.button_style{
+  background-color: transparent;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.button{
   position: relative;
   z-index: 4;
-  top: 17%;
-  width: 100%;
+  flex-shrink: 0;
+  width: 9%;
+  height: 10%;
+  left: 38%;
+  box-sizing: border-box;
+  margin-top: 4%;
 }
 
 h1{
