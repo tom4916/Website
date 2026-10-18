@@ -2,8 +2,8 @@
 <html>
 <head>
   <title>tshea Website</title>
- <!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Quicksand:300,700" rel="stylesheet">-->
   <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
 </head>
 
 <body>
@@ -26,7 +26,7 @@
 
             <div class="center_txt">
                 <p>
-                    With over <a href="tshea - Resume.pdf">1.5 years of experience</a> 
+                    With over <a href="#" class="pdf_link" data-file="\resources\tshea - Resume.pdf">1.5 years of experience</a> 
                     working as a network administrator supporting a medium size enterprise Windows environment, 
                     I have the experience and knowledge to be a valuable asset to your team. I am passionate 
                     about technology and enjoy learning new skills and technologies. 
@@ -51,11 +51,11 @@
             </div>
 
             <button class="button button_style">
-                <a href="tshea - Resume.pdf" class="button" target="_blank" style="margin-right: 10%;">Resume</a>
+                <a href="tshea - Resume.pdf" class="button" target="_blank" rel="noopener noreferrer">Resume</a>
             </button>
 
             <button class="button button_style">
-                <a href="mailto:tshea1@gmail.com" class="button" style="left: 45%;">Contact</a>
+                <a href="mailto:sheathomas121@gmail.com" class="button" target="_blank" rel="noopener noreferrer">Contact</a>
             </button>
 
         </div>
@@ -64,13 +64,9 @@
 
     <div class="footer box_filter">
         <p class="foot_txt">
-            © <span id="current-year"></span> Thomas Shea
+            © <span id="current_year"></span> Thomas Shea. All rights reserved.
         </p>
     </div>
-
-    <script>
-        document.getElementById("current-year").textContent = new Date().getFullYear();
-    </script>
 
 </body>
 </html>

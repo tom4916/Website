@@ -81,9 +81,10 @@ body{
   flex-shrink: 0;
   width: 9%;
   height: 10%;
-  left: 38%;
   box-sizing: border-box;
   margin-top: 4%;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
 }
 
 h1{
